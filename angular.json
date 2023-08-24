@@ -27,9 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "src/script.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -41,7 +39,7 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
+                  "maximumWarning": "10kb",
                   "maximumError": "10kb"
                 }
               ],

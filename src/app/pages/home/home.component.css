@@ -62,7 +62,7 @@
   font-size: 3em;
   max-width: var(--dl-size-size-maxwidth);
   font-weight: 500;
-margin-left: 5vw;
+  margin-left: 5vw;
   margin-right: 5vw;
 }
 .home-text {
