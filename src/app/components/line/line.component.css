@@ -1,0 +1,19 @@
+:host { 
+  display: contents; 
+}
+.line-line {
+  width: 32px;
+  height: 1px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.line-root-class-name {
+  width: 1px;
+  height: 100px;
+  align-self: center;
+  background-color: #b8b8b8;
+}
