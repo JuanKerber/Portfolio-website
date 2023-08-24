@@ -214,6 +214,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @media(max-width: 991px) {
   .banner {
     flex-direction: column;

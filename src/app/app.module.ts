@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser'
 
 import { ComponentsModule } from './components/components.module'
 import { AppComponent } from './app.component'
+import {CloudinaryModule} from '@cloudinary/ng';
 
 const routes = [
   {
@@ -15,7 +16,7 @@ const routes = [
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, RouterModule.forRoot(routes), ComponentsModule],
+  imports: [BrowserModule, RouterModule.forRoot(routes), ComponentsModule, CloudinaryModule],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

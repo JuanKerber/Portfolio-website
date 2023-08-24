@@ -13,7 +13,19 @@
 }
 .line-root-class-name {
   width: 1px;
-  height: 100px;
+  height: 6vw;
   align-self: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
   background-color: #b8b8b8;
+}
+@media(max-width: 479px) {
+  .line-root-class-name {
+    width: 40vw;
+    height: 1px;
+    margin-top: 1em;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 1em;
+  }
 }
