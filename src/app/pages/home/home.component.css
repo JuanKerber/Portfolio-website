@@ -56,29 +56,30 @@
   flex-direction: column;
 }
 .home-heading {
+  font-family: Textfont;
   color: #b8b8b8;
   font-size: 3em;
   max-width: 790px;
   font-weight: 500;
 }
 .home-text {
-  font-family: Playfair Display;
+  font-family: Textfont;
   font-weight: 700;
 }
 .home-text01 {
-  font-family: Playfair Display;
+  font-family: Textfont;
   font-weight: 700;
 }
 .home-text02 {
-  font-family: Playfair Display;
+  font-family: Textfont;
   font-weight: 700;
 }
 .home-text03 {
-  font-family: Playfair Display;
+  font-family: Textfont;
   font-weight: 700;
 }
 .home-text04 {
-  font-family: Playfair Display;
+  font-family: Textfont;
   font-weight: 700;
 }
 .home-text05 {
@@ -108,6 +109,7 @@
   height: 24px;
 }
 .home-scroll {
+  font-family: Textfont;
   color: rgb(184, 184, 184);
   font-size: 1.5em;
 }
@@ -141,14 +143,14 @@
   color: rgb(184, 184, 184);
   font-size: 7em;
   align-self: center;
-  font-family: Rubik Glitch;
+  font-family: Glitch;
 }
 .home-heading1 {
   color: #b8b8b8;
   font-size: 4em;
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
-  font-family: Rubik Glitch;
+  font-family: Glitch;
 }
 .home-projects {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -170,13 +172,15 @@
   flex-direction: column;
 }
 .home-heading2 {
-  color: rgb(255, 255, 255);
+  font-family: Textfont;
+  color: rgb(124, 124, 128);
   font-size: 60px;
   max-width: 900px;
   font-style: normal;
   font-weight: 400;
 }
 .home-caption {
+  font-family: Textfont;
   color: rgb(124, 124, 128);
   font-size: 24px;
   max-width: 600px;
@@ -239,14 +243,15 @@
   color: rgb(184, 184, 184);
   font-size: 7em;
   align-self: center;
-  font-family: Rubik Glitch;
+  font-family: Glitch;
 }
 .home-heading3 {
+  font-family: Textfont;
   color: rgb(184, 184, 184);
   font-size: 4em;
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
-  font-family: Rubik Glitch;
+  font-family: Glitch;
 }
 .home-about {
   width: 100%;
@@ -280,7 +285,7 @@
   align-items: center;
   background-size: contain;
   justify-content: center;
-  background-image: url("/assets/photo_cv-1400w.png");
+  background-image: var(--my-portrait);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -307,12 +312,14 @@
   flex-direction: column;
 }
 .home-heading4 {
+  font-family: Textfont;
   color: #b8b8b8;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
 }
 .home-caption1 {
+  font-family: Textfont;
   color: rgb(124, 124, 128);
   width: 100%;
   font-size: 24px;
@@ -334,6 +341,7 @@
   justify-content: center;
 }
 .home-heading5 {
+  font-family: Textfont;
   color: #b8b8b8;
   font-size: 60px;
   font-style: normal;
@@ -348,6 +356,7 @@
   justify-content: flex-start;
 }
 .home-caption2 {
+  font-family: Textfont;
   color: rgb(124, 124, 128);
   width: 184px;
   font-size: 24px;
@@ -355,6 +364,7 @@
   line-height: 36px;
 }
 .home-caption3 {
+  font-family: Textfont;
   color: rgb(124, 124, 128);
   width: 296px;
   font-size: 24px;
@@ -412,6 +422,7 @@
   height: 30px;
 }
 .home-text40 {
+  font-family: Textfont;
   color: rgb(184, 184, 184);
   align-self: center;
   margin-top: var(--dl-space-space-threeunits);
@@ -458,6 +469,7 @@
     line-height: 24px;
   }
   .home-title1 {
+    
     align-items: flex-start;
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-oneandhalfunits);

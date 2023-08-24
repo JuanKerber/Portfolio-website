@@ -33,6 +33,8 @@
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px;
+  --main-font-color: #b8b8b8;
+  --my-portrait: url('assets/photo_cv-1400w.png');
 }
 .button {
   color: #ffffff;
@@ -199,6 +201,18 @@
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
+}
+@font-face {
+  font-family: 'Glitch';
+  src: url('assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Textfont';
+  src: url('assets/fonts/Arame/ArameThin/ArameThin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 @media(max-width: 991px) {
   .banner {
