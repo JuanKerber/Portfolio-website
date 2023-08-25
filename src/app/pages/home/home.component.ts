@@ -9,11 +9,11 @@ import { Title, Meta } from '@angular/platform-browser'
 export class Home {
   raw234i: string = ' '
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('Portfolio')
+    this.title.setTitle('Juan Kerber')
     this.meta.addTags([
       {
         property: 'og:title',
-        content: 'Portfolio',
+        content: "Juan Kerber's Porfolio",
       },
     ])
   }

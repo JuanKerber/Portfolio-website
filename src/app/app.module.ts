@@ -6,6 +6,8 @@ import { ComponentsModule } from './components/components.module'
 import { AppComponent } from './app.component'
 import {CloudinaryModule} from '@cloudinary/ng';
 
+import * as lozad from 'lozad'
+
 const routes = [
   {
     path: '',
@@ -22,3 +24,6 @@ const routes = [
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {}
+
+const observer = lozad();
+observer.observe();
