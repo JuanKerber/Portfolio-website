@@ -19,3 +19,4 @@ const routes = [
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class HomeModule {}
+

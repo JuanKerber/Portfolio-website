@@ -35,6 +35,10 @@
   --dl-space-space-oneandhalfunits: 24px;
   --main-font-color: #b8b8b8;
   --my-portrait: url('assets/photo_cv-1400w.png');
+  --proj-naca: url('assets/projects/NACA_project.webp');
+  --proj-playlist: url('assets/projects/PLAYLIST_project.webp');
+  --proj-run: url('assets/projects/RUN_project.webp');
+  --proj-recon: url('assets/projects/RECON_project.webp');
 }
 
 body::-webkit-scrollbar {
