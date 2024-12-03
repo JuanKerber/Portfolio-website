@@ -22,7 +22,7 @@ jobs:
           node-version: '20.x'
 
       - name: Upgrade packages 🔀
-        run: npm update --latest --save
+        run: npm update --latest
 
       - name: Commit and create PR 🔀
         uses: peter-evans/create-pull-request@v3
